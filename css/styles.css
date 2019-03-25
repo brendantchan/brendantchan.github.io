@@ -96,3 +96,14 @@ a {
   padding-top: 50px;
 }
 
+.gallery1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.gallery2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
