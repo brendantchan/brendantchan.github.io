@@ -1,13 +1,41 @@
 /*
   DIAGNOSTIC STYLING
 */
-body {
-  background: gray;
+
+.homename {
+  font-size: 5em;
+  color: #7d7d7d;
+  font-family: 'Montserrat', sans-serif;
 }
 
-* {
-  outline: 1px dotted black;
+.subtitle {
+  color: #7d7d7d;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.homegroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #7d7d7d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  border-bottom: solid #7d7d7d 2px;
+}
+
+
 
 /* Portfolio Styling */
 
