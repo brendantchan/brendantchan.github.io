@@ -91,4 +91,7 @@ a {
 .portfoliotitle {
   color: #7d7d7d;
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
