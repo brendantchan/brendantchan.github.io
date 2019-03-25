@@ -36,6 +36,11 @@ a {
   border-bottom: solid #7d7d7d 2px;
 }
 
+.manifestohome {
+  display: flex;
+  justify-content: center;
+}
+
 /* About Page Styling */
 .about {
   color: #7d7d7d;
