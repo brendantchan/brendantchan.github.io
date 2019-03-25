@@ -11,20 +11,21 @@
 .subtitle {
   color: #7d7d7d;
   font-family: 'Montserrat', sans-serif;
+  margin-top: -20px
 }
 
 .homegroup {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
   align-items: center;
+  padding-top: 50px;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 a {
@@ -35,7 +36,49 @@ a {
   border-bottom: solid #7d7d7d 2px;
 }
 
+/* About Page Styling */
+.about {
+  color: #7d7d7d;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.metext {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  color: #7d7d7d;
+  width: 600px;
+}
+
+.picofme {
+  width: 300px;
+}
+
+.aboutgroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* Contact Me Styling */
+
+.contact {
+  color: #7d7d7d;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.textentry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 
 /* Portfolio Styling */
-

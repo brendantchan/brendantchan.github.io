@@ -28,12 +28,21 @@
 </head>
 
 <body>
+
+        <nav>
+            <a href ="index.html">Home</a>
+            <a href ="portfolio/index.html">Portfolio</a>
+            <a href ="about.html">About</a>
+            <a href ="contact.html">Contact</a>
+                    
+        </nav>
     
-    <h1>Contact Me</h1>
+    <h1 class="contact">Contact Me</h1>
 
     <form action="https://formspree.io/brendantchan@gmail.com" method="POST">
 
         <!-- Visible -->
+        <section class="textentry">
         <label for="name">Name</label>
         <input type="text" name="name">
 
@@ -47,14 +56,9 @@
         <!-- Hidden -->
         <input type="hidden" name="_next" value="/index.html"/>
       </form>
+    </section>
 
-    <nav>
-        <ul>
-            <li><a href ="about.html">About</a></li>
-            <li><a href ="portfolio/index.html">Portfolio</a></li>
-            <li><a href ="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    
 
     <!-- jQuery Library via CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
